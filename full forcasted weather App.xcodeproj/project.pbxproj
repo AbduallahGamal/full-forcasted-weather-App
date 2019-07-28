@@ -15,6 +15,7 @@
 		8AEA722722ED486700E8D665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEA722522ED486700E8D665 /* LaunchScreen.storyboard */; };
 		8AEA723222ED486700E8D665 /* full_forcasted_weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA723122ED486700E8D665 /* full_forcasted_weather_AppTests.swift */; };
 		8AEA723D22ED486700E8D665 /* full_forcasted_weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA723C22ED486700E8D665 /* full_forcasted_weather_AppUITests.swift */; };
+		8AEA724B22ED4B6900E8D665 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA724A22ED4B6900E8D665 /* gradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8AEA723822ED486700E8D665 /* full forcasted weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "full forcasted weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEA723C22ED486700E8D665 /* full_forcasted_weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = full_forcasted_weather_AppUITests.swift; sourceTree = "<group>"; };
 		8AEA723E22ED486700E8D665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEA724A22ED4B6900E8D665 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8AEA720D22ED486500E8D665 = {
 			isa = PBXGroup;
 			children = (
+				8AEA724A22ED4B6900E8D665 /* gradientView.swift */,
 				8AEA721822ED486500E8D665 /* full forcasted weather App */,
 				8AEA723022ED486700E8D665 /* full forcasted weather AppTests */,
 				8AEA723B22ED486700E8D665 /* full forcasted weather AppUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				8AEA722222ED486500E8D665 /* full_forcasted_weather_App.xcdatamodeld in Sources */,
 				8AEA721C22ED486500E8D665 /* ViewController.swift in Sources */,
+				8AEA724B22ED4B6900E8D665 /* gradientView.swift in Sources */,
 				8AEA721A22ED486500E8D665 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "full forcasted weather App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "full forcasted weather App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
